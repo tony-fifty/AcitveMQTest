@@ -1,0 +1,19 @@
+			ActiveMQ简介
+ActiveMQ是什么:
+	ActiveMQ是Apache推出的,一款开源的,完全支持JMS1.1和J2EE1.4规范的
+JMSProvider实现的消息中间件(Message Oriented Middleware,MOM)
+
+ActiveMQ能干什么:
+	最主要的功能就是:实现JMSProvider,用来帮助实现高可用、高性能、可伸缩、
+易用和安全的企业级面向消息服务的系统
+
+ActiveMQ特点
+	完全支持JMS1.1和J2EE1.4规范(持久化,XA消息,事务)
+	支持多种传送协议:in-VM,TCP,SSL,NIO,UDP,JGroups,JXTA
+	可插拔的体系结构,可以灵活定制,如:消息存储方式,安全管理等
+	很容易和application server 集成使用
+	多种语言和协议编写客户端。语言:Java,C,C++,C#,Rudy,Perl,Python,PHP
+	从设计上保证了高性能的集群,客户端-服务器,点对点
+	可以很容易的和spring结合使用
+	支持通过JDBC和journal提供高速的消息持久化
+	支持与Axis的整合
