@@ -1,0 +1,7 @@
+										JMS基本概念
+JMS是什么
+	JMS Java Message Service,Java消息服务,是Java EE中的一个技术。
+
+JMS规范
+	JMS定义了Java中访问消息中间件的接口,并没有给予实现,
+实现JMS接口的消息中间件称为JMSProvider
